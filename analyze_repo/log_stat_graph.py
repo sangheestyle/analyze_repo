@@ -27,18 +27,3 @@ class LogStatGraph:
         if path is None:
             path = self.name
         self.graph.export(path, directed=True, **kwargs)
-
-
-if __name__ == "__main__":
-    from analyze_repo.log_stat import LogStat
-
-    repo_name="framework"
-    repo_path="/home/sanghee/Dev/platform_frameworks_base"
-    depth = 0
-    log_stat = LogStat(repo_name, repo_path)
-    log_stat.do_log()
-
-    g = LogStatGraph(repo_name)
-    g.load(log_stat)
-    g.prune(depth)
-    g.export(width=2000, height=1500)
