@@ -1,6 +1,6 @@
 #Analyze Repo
 
-Representing status of development by analyzing repository.
+Representing status of development by analyzing repository. You can see some example at the bottom of this page.
 
 ##What to do
 * Showing 'Who modified which files?'
@@ -18,3 +18,7 @@ You can get a graph representing relationship among committers and files modifie
 ``` bash
 $ python examples/graph_log_with_diffstats.py project_name /path/to/git
 ```
+
+##Gallery
+You can see some pre-built graphs.
+* [Android framework git](https://googledrive.com/host/0B-YJnfgGCje6NUJyaHFqR3JLTU0/index.html)
