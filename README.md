@@ -12,3 +12,9 @@ You might want to install [Pattern](https://github.com/clips/pattern).
 ``` bash
 $ pip install -r requirements.txt
 ```
+##Examples
+You can get a graph representing relationship among committers and files modified by themselves. To do, you need to clone a git repository and make sure the path `/path/to/git`. After doing following command, you can find a folder named `project_name` and click index.html in the folder.
+
+``` bash
+$ python examples/graph_log_with_diffstats.py project_name /path/to/git
+```
