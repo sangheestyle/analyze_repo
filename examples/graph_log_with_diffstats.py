@@ -7,6 +7,7 @@ if len(sys.argv) != 3:
     print "usage: python graph_log_with_diffstats.py [project_name] [git_path]"
     print "e.g.: python graph_log_with_diffstats.py framework /path/to/git"
     print "You can open the folder named [project_name] and click index.html!"
+    exit()
 elif not os.path.isdir(sys.argv[2]):
     print "error: check your git repo path"
 
