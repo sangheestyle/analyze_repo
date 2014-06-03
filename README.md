@@ -1,6 +1,6 @@
 #Analyze Repo
 
-Representing status of development by analyzing repository. You can see some example at the bottom of this page.
+Representing status of development by analyzing repository. You can see some example at the bottom of this page. Also, you might want to click [here](http://goo.gl/JYIIoS) to know what is my intention.
 
 ##What to do
 * Showing 'Who modified which files?'
