@@ -20,8 +20,6 @@ class LogStatGraph:
             for diffstat in commit.diffstats:
                 file_path = diffstat["file_path"]
                 self.graph.add_node(file_path, stroke=BLACK_25, text=BLACK_15)
-                # for reference
-                # int(diffstat["deletions"]) + int(diffstat["insertions"])
                 self.graph.add_edge(author_email, file_path, stroke=BLACK_25)
 
     def prune(self, depth=0):
