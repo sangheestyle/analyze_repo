@@ -21,4 +21,4 @@ $ python examples/graph_log_with_diffstats.py project_name /path/to/git
 
 ##Gallery
 You can see some pre-built graphs.
-* [Android framework git](https://googledrive.com/host/0B-YJnfgGCje6NUJyaHFqR3JLTU0/index.html)
+* [Android framework git](https://googledrive.com/host/0B-YJnfgGCje6SGZ5Mklrc0dLWW8/index.html)
