@@ -30,4 +30,4 @@ class LogStatGraph:
     def export(self, path=None, **kwargs):
         if path is None:
             path = self.name
-        self.graph.export(path, directed=True, **kwargs)
+        self.graph.export(path, directed=True, weighted=True, **kwargs)
